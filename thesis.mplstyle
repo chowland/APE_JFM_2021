@@ -1,0 +1,70 @@
+# MODIFIED FROM: default seaborn aesthetic
+# darkgrid + deep palette + notebook context
+
+axes.axisbelow: True
+axes.edgecolor: black
+axes.facecolor: EAEAF2
+axes.grid: True
+axes.labelcolor: black
+axes.labelsize: 12
+axes.linewidth: 1
+axes.prop_cycle: cycler('color', ['4C72B0', '55A868', 'C44E52', '8172B2', 'CCB974', '64B5CD'])
+axes.titlesize: 14
+
+figure.constrained_layout.use: True
+figure.dpi: 300
+figure.facecolor: white
+figure.figsize: 6.2, 4.0
+
+font.family: serif
+font.sans-serif: Arial, Liberation Sans, DejaVu Sans, Bitstream Vera Sans, sans-serif
+font.serif: Times, Times New Roman, serif
+font.size: 12
+
+grid.color: white
+grid.linestyle: -
+grid.linewidth: 1
+
+image.cmap: Greys
+
+legend.fontsize: 12
+legend.frameon: False
+legend.numpoints: 1
+legend.scatterpoints: 1
+
+lines.linewidth: 1.75
+lines.markeredgewidth: 0
+lines.markersize: 7
+lines.solid_capstyle: round
+
+mathtext.fontset: stix
+
+patch.facecolor: 4C72B0
+patch.linewidth: .3
+
+pgf.rcfonts: False
+pgf.preamble: \usepackage{fontspec}, \usepackage{amsmath}, \usepackage{unicode-math}, \setmainfont{STIX Two Text}, \setmathfont{STIX2Math.otf}[Path=/home/cjh225/.local/share/fonts/]
+
+text.color: black
+text.latex.preamble: \usepackage{amsmath,stix2}
+text.usetex: True
+
+xtick.color: black
+xtick.direction: in
+xtick.labelsize: 12
+xtick.major.pad: 7
+xtick.major.size: 2
+xtick.major.width: 1
+xtick.minor.size: 2
+xtick.minor.width: .5
+xtick.top: True
+
+ytick.color: black
+ytick.direction: in
+ytick.labelsize: 12
+ytick.major.pad: 7
+ytick.major.size: 2
+ytick.major.width: 1
+ytick.minor.size: 2
+ytick.minor.width: .5
+ytick.right: True
